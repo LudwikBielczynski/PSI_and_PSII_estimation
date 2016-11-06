@@ -84,9 +84,7 @@ class App:
         self.image_PSII = ImageTk.PhotoImage(self.IMAGE_PSII)            
         self.image_PSII_on_canvas = self.canvas_PSII.create_image(0, 0, image = self.image_PSII, anchor = NW)
 
-        #PSII labels
         PSIIlabels(self)
-        #PSI labels
         PSIlabels(self)
 
         self.frame_structure = Frame(master, width = 5, height = 600)
